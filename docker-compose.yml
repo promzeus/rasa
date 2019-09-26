@@ -1,0 +1,58 @@
+version: '3.0'
+services:
+  rasa:
+    image: rasa/rasa:latest-full
+    networks:
+      - default
+    ports:
+      - 5005:5005
+    volumes:
+      - ./:/app
+    command:
+      - run
+    deploy:
+      mode: replicated
+      replicas: 1
+      placement:
+        constraints:
+          - node.role == manager
+      restart_policy:
+        condition: on-failure
+        delay: 10s
+      # resources:
+      #   limits:
+      #     memory: 128M
+      #   reservations:
+      #     memory: 64M
+
+  action_server:
+    image: rasa/rasa-sdk:latest
+    networks:
+      - default
+    volumes:
+      - ./actions:/app/actions
+    deploy:
+      mode: replicated
+      replicas: 1
+      placement:
+        constraints:
+          - node.role == manager
+      restart_policy:
+        condition: on-failure
+        delay: 10s
+
+  postgresql:
+    image: 'bitnami/postgresql:10'
+    environment:
+      - POSTGRESQL_USERNAME=rasa
+      - POSTGRESQL_DATABASE=rasa
+      - POSTGRESQL_PASSWORD=rasa
+      #- ALLOW_EMPTY_PASSWORD=yes
+    networks:
+      - default
+    volumes:
+      - './postgresql_data:/bitnami'
+
+networks:
+  default:
+    external: false
