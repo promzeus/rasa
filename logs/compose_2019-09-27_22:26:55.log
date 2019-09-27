@@ -1,0 +1,1357 @@
+Attaching to rasa_db_1, rasa_rabbit_1
+rabbit_1           | [38;5;6m [38;5;5m20:07:24.39 [0m
+rabbit_1           | [38;5;6m [38;5;5m20:07:24.40 [0m[1mWelcome to the Bitnami rabbitmq container[0m
+rabbit_1           | [38;5;6m [38;5;5m20:07:24.40 [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-rabbitmq[0m
+rabbit_1           | [38;5;6m [38;5;5m20:07:24.40 [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-rabbitmq/issues[0m
+rabbit_1           | [38;5;6m [38;5;5m20:07:24.41 [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+rabbit_1           | [38;5;6m [38;5;5m20:07:24.41 [0m
+rabbit_1           | [38;5;6m [38;5;5m20:07:24.41 [0m[38;5;2mINFO [0m ==> ** Starting RabbitMQ setup **
+rabbit_1           | [38;5;6m [38;5;5m20:07:24.43 [0m[38;5;2mINFO [0m ==> Validating settings in RABBITMQ_* env vars..
+rabbit_1           | [38;5;6m [38;5;5m20:07:24.46 [0m[38;5;2mINFO [0m ==> Initializing RabbitMQ...
+rabbit_1           | [38;5;6m [38;5;5m20:07:24.48 [0m[38;5;2mINFO [0m ==> Generating random cookie
+rabbit_1           | [38;5;6m [38;5;5m20:07:24.53 [0m[38;5;2mINFO [0m ==> Starting RabbitMQ in background...
+rabbit_1           | Waiting for erlang distribution on node 'rabbit@localhost' while OS process '43' is running
+rabbit_1           | Waiting for applications 'rabbit_and_plugins' to start on node 'rabbit@localhost'
+rabbit_1           | Applications 'rabbit_and_plugins' are running on node 'rabbit@localhost'
+rabbit_1           | [38;5;6m [38;5;5m20:07:34.96 [0m[38;5;2mINFO [0m ==> Stopping RabbitMQ...
+rabbit_1           | [38;5;6m [38;5;5m20:07:40.15 [0m[38;5;2mINFO [0m ==> ** RabbitMQ setup finished! **
+rabbit_1           | 
+rabbit_1           | [38;5;6m [38;5;5m20:07:40.17 [0m[38;5;2mINFO [0m ==> ** Starting RabbitMQ **
+rabbit_1           | 2019-09-27 20:07:46.854 [info] <0.8.0> Feature flags: list of feature flags found:
+rabbit_1           | 2019-09-27 20:07:46.854 [info] <0.8.0> Feature flags: feature flag states written to disk: yes
+rabbit_1           | 2019-09-27 20:07:47.033 [info] <0.289.0> 
+rabbit_1           |  Starting RabbitMQ 3.7.18 on Erlang 22.1
+rabbit_1           |  Copyright (C) 2007-2019 Pivotal Software, Inc.
+rabbit_1           |  Licensed under the MPL.  See https://www.rabbitmq.com/
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+rabbit_1           | 
+rabbit_1           |   ##  ##
+rabbit_1           |   ##  ##      RabbitMQ 3.7.18. Copyright (C) 2007-2019 Pivotal Software, Inc.
+rabbit_1           |   ##########  Licensed under the MPL.  See https://www.rabbitmq.com/
+rabbit_1           |   ######  ##
+rabbit_1           |   ##########  Logs: <stdout>
+rabbit_1           | 
+rabbit_1           |               Starting broker...
+rabbit_1           | 2019-09-27 20:07:47.036 [info] <0.289.0> 
+rabbit_1           |  node           : rabbit@localhost
+rabbit_1           |  home dir       : /opt/bitnami/rabbitmq/.rabbitmq
+rabbit_1           |  config file(s) : /opt/bitnami/rabbitmq/etc/rabbitmq/rabbitmq.config
+rabbit_1           |  cookie hash    : zwOqXcB/BgogyEymITgKIw==
+rabbit_1           |  log(s)         : <stdout>
+rabbit_1           |  database dir   : /bitnami/rabbitmq/mnesia/rabbit@localhost
+rabbit_1           | 2019-09-27 20:07:47.070 [info] <0.289.0> Running boot step pre_boot defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.071 [info] <0.289.0> Running boot step rabbit_core_metrics defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.073 [info] <0.289.0> Running boot step rabbit_alarm defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.086 [info] <0.327.0> Memory high watermark set to 799 MiB (838505267 bytes) of 1999 MiB (2096263168 bytes) total
+rabbit_1           | 2019-09-27 20:07:47.100 [info] <0.329.0> Enabling free disk space monitoring
+rabbit_1           | 2019-09-27 20:07:47.104 [info] <0.329.0> Disk free limit set to 209MB
+rabbit_1           | 2019-09-27 20:07:47.111 [info] <0.289.0> Running boot step code_server_cache defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.114 [info] <0.289.0> Running boot step file_handle_cache defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.116 [info] <0.333.0> FHC read buffering:  OFF
+rabbit_1           | 2019-09-27 20:07:47.117 [info] <0.333.0> FHC write buffering: ON
+rabbit_1           | 2019-09-27 20:07:47.116 [info] <0.332.0> Limiting to approx 1048476 file handles (943626 sockets)
+rabbit_1           | 2019-09-27 20:07:47.120 [info] <0.289.0> Running boot step worker_pool defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.120 [info] <0.293.0> Will use 2 processes for default worker pool
+rabbit_1           | 2019-09-27 20:07:47.120 [info] <0.293.0> Starting worker pool 'worker_pool' with 2 processes in it
+rabbit_1           | 2019-09-27 20:07:47.121 [info] <0.289.0> Running boot step database defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.132 [info] <0.289.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
+rabbit_1           | 2019-09-27 20:07:47.184 [info] <0.289.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
+rabbit_1           | 2019-09-27 20:07:47.184 [info] <0.289.0> Peer discovery backend rabbit_peer_discovery_classic_config does not support registration, skipping registration.
+rabbit_1           | 2019-09-27 20:07:47.185 [info] <0.289.0> Running boot step database_sync defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.185 [info] <0.289.0> Running boot step feature_flags defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.186 [info] <0.289.0> Running boot step codec_correctness_check defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.186 [info] <0.289.0> Running boot step external_infrastructure defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.186 [info] <0.289.0> Running boot step rabbit_registry defined by app rabbit
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+rabbit_1           | 2019-09-27 20:07:47.187 [info] <0.289.0> Running boot step rabbit_auth_mechanism_cr_demo defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.188 [info] <0.289.0> Running boot step rabbit_queue_location_random defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.189 [info] <0.289.0> Running boot step rabbit_event defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.189 [info] <0.289.0> Running boot step rabbit_auth_mechanism_amqplain defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.190 [info] <0.289.0> Running boot step rabbit_auth_mechanism_plain defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.191 [info] <0.289.0> Running boot step rabbit_exchange_type_direct defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.191 [info] <0.289.0> Running boot step rabbit_exchange_type_fanout defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.192 [info] <0.289.0> Running boot step rabbit_exchange_type_headers defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.196 [info] <0.289.0> Running boot step rabbit_exchange_type_topic defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.198 [info] <0.289.0> Running boot step rabbit_mirror_queue_mode_all defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.199 [info] <0.289.0> Running boot step rabbit_mirror_queue_mode_exactly defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.199 [info] <0.289.0> Running boot step rabbit_mirror_queue_mode_nodes defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.200 [info] <0.289.0> Running boot step rabbit_priority_queue defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.200 [info] <0.289.0> Priority queues enabled, real BQ is rabbit_variable_queue
+rabbit_1           | 2019-09-27 20:07:47.200 [info] <0.289.0> Running boot step rabbit_queue_location_client_local defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.201 [info] <0.289.0> Running boot step rabbit_queue_location_min_masters defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.201 [info] <0.289.0> Running boot step kernel_ready defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.201 [info] <0.289.0> Running boot step rabbit_sysmon_minder defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.202 [info] <0.289.0> Running boot step rabbit_epmd_monitor defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.207 [info] <0.289.0> Running boot step guid_generator defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.211 [info] <0.289.0> Running boot step rabbit_node_monitor defined by app rabbit
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+rabbit_1           | 2019-09-27 20:07:47.217 [info] <0.358.0> Starting rabbit_node_monitor
+rabbit_1           | 2019-09-27 20:07:47.217 [info] <0.289.0> Running boot step delegate_sup defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.220 [info] <0.289.0> Running boot step rabbit_memory_monitor defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.221 [info] <0.289.0> Running boot step core_initialized defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.221 [info] <0.289.0> Running boot step upgrade_queues defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.271 [info] <0.289.0> Running boot step rabbit_connection_tracking defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.272 [info] <0.289.0> Running boot step rabbit_connection_tracking_handler defined by app rabbit
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+rabbit_1           | 2019-09-27 20:07:47.272 [info] <0.289.0> Running boot step rabbit_exchange_parameters defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.273 [info] <0.289.0> Running boot step rabbit_mirror_queue_misc defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.274 [info] <0.289.0> Running boot step rabbit_policies defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.278 [info] <0.289.0> Running boot step rabbit_policy defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.279 [info] <0.289.0> Running boot step rabbit_queue_location_validator defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.279 [info] <0.289.0> Running boot step rabbit_vhost_limit defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.279 [info] <0.289.0> Running boot step rabbit_mgmt_reset_handler defined by app rabbitmq_management
+rabbit_1           | 2019-09-27 20:07:47.280 [info] <0.289.0> Running boot step rabbit_mgmt_db_handler defined by app rabbitmq_management_agent
+rabbit_1           | 2019-09-27 20:07:47.280 [info] <0.289.0> Management plugin: using rates mode 'basic'
+rabbit_1           | 2019-09-27 20:07:47.283 [info] <0.289.0> Running boot step recovery defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.289 [info] <0.391.0> Making sure data directory '/bitnami/rabbitmq/mnesia/rabbit@localhost/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
+rabbit_1           | 2019-09-27 20:07:47.296 [info] <0.391.0> Starting message stores for vhost '/'
+rabbit_1           | 2019-09-27 20:07:47.296 [info] <0.395.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_transient": using rabbit_msg_store_ets_index to provide index
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+rabbit_1           | 2019-09-27 20:07:47.302 [info] <0.391.0> Started message store of type transient for vhost '/'
+rabbit_1           | 2019-09-27 20:07:47.302 [info] <0.398.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": using rabbit_msg_store_ets_index to provide index
+rabbit_1           | 2019-09-27 20:07:47.308 [info] <0.391.0> Started message store of type persistent for vhost '/'
+rabbit_1           | 2019-09-27 20:07:47.316 [info] <0.289.0> Running boot step load_definitions defined by app rabbitmq_management
+rabbit_1           | 2019-09-27 20:07:47.317 [info] <0.289.0> Running boot step empty_db_check defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.317 [info] <0.289.0> Running boot step rabbit_looking_glass defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.325 [info] <0.289.0> Running boot step rabbit_core_metrics_gc defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.326 [info] <0.289.0> Running boot step background_gc defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.327 [info] <0.289.0> Running boot step connection_tracking defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.328 [info] <0.289.0> Setting up a table for connection tracking on this node: tracked_connection_on_node_rabbit@localhost
+rabbit_1           | 2019-09-27 20:07:47.328 [info] <0.289.0> Setting up a table for per-vhost connection counting on this node: tracked_connection_per_vhost_on_node_rabbit@localhost
+rabbit_1           | 2019-09-27 20:07:47.329 [info] <0.289.0> Running boot step routing_ready defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.329 [info] <0.289.0> Running boot step pre_flight defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.329 [info] <0.289.0> Running boot step notify_cluster defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.330 [info] <0.289.0> Running boot step networking defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.333 [info] <0.435.0> started TCP listener on [::]:5672
+rabbit_1           | 2019-09-27 20:07:47.333 [info] <0.289.0> Running boot step direct_client defined by app rabbit
+rabbit_1           | 2019-09-27 20:07:47.402 [info] <0.485.0> Management plugin: HTTP (non-TLS) listener started on port 15672
+rabbit_1           | 2019-09-27 20:07:47.403 [info] <0.591.0> Statistics database started.
+rabbit_1           | 2019-09-27 20:07:47.403 [info] <0.590.0> Starting worker pool 'management_worker_pool' with 3 processes in it
+rabbit_1           | 2019-09-27 20:07:47.580 [info] <0.8.0> Server startup complete; 3 plugins started.
+rabbit_1           |  * rabbitmq_management
+rabbit_1           |  * rabbitmq_management_agent
+rabbit_1           |  * rabbitmq_web_dispatch
+rabbit_1           |  completed with 3 plugins.
+rabbit_1           | [38;5;6m [38;5;5m20:08:16.63 [0m
+rabbit_1           | [38;5;6m [38;5;5m20:08:16.63 [0m[1mWelcome to the Bitnami rabbitmq container[0m
+rabbit_1           | [38;5;6m [38;5;5m20:08:16.63 [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-rabbitmq[0m
+rabbit_1           | [38;5;6m [38;5;5m20:08:16.64 [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-rabbitmq/issues[0m
+rabbit_1           | [38;5;6m [38;5;5m20:08:16.64 [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+rabbit_1           | [38;5;6m [38;5;5m20:08:16.64 [0m
+rabbit_1           | [38;5;6m [38;5;5m20:08:16.64 [0m[38;5;2mINFO [0m ==> ** Starting RabbitMQ setup **
+rabbit_1           | [38;5;6m [38;5;5m20:08:16.67 [0m[38;5;2mINFO [0m ==> Validating settings in RABBITMQ_* env vars..
+rabbit_1           | [38;5;6m [38;5;5m20:08:16.70 [0m[38;5;2mINFO [0m ==> Initializing RabbitMQ...
+rabbit_1           | [38;5;6m [38;5;5m20:08:16.74 [0m[38;5;2mINFO [0m ==> Persisted data detected. Restoring...
+rabbit_1           | [38;5;6m [38;5;5m20:08:18.96 [0m[38;5;2mINFO [0m ==> ** RabbitMQ setup finished! **
+rabbit_1           | 
+rabbit_1           | [38;5;6m [38;5;5m20:08:18.98 [0m[38;5;2mINFO [0m ==> ** Starting RabbitMQ **
+rabbit_1           | 2019-09-27 20:08:27.227 [info] <0.8.0> Feature flags: list of feature flags found:
+rabbit_1           | 2019-09-27 20:08:27.227 [info] <0.8.0> Feature flags: feature flag states written to disk: yes
+rabbit_1           | 2019-09-27 20:08:27.400 [info] <0.293.0> 
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+rabbit_1           |  Starting RabbitMQ 3.7.18 on Erlang 22.1
+rabbit_1           |  Copyright (C) 2007-2019 Pivotal Software, Inc.
+rabbit_1           |  Licensed under the MPL.  See https://www.rabbitmq.com/
+rabbit_1           | 
+rabbit_1           |   ##  ##
+rabbit_1           |   ##  ##      RabbitMQ 3.7.18. Copyright (C) 2007-2019 Pivotal Software, Inc.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+rabbit_1           |   ##########  Licensed under the MPL.  See https://www.rabbitmq.com/
+rabbit_1           |   ######  ##
+rabbit_1           |   ##########  Logs: <stdout>
+rabbit_1           | 
+rabbit_1           |               Starting broker...
+rabbit_1           | 2019-09-27 20:08:27.402 [info] <0.293.0> 
+rabbit_1           |  node           : rabbit@localhost
+rabbit_1           |  home dir       : /opt/bitnami/rabbitmq/.rabbitmq
+rabbit_1           |  config file(s) : /opt/bitnami/rabbitmq/etc/rabbitmq/rabbitmq.config
+rabbit_1           |  cookie hash    : zwOqXcB/BgogyEymITgKIw==
+rabbit_1           |  log(s)         : <stdout>
+rabbit_1           |  database dir   : /bitnami/rabbitmq/mnesia/rabbit@localhost
+rabbit_1           | 2019-09-27 20:08:27.425 [info] <0.293.0> Running boot step pre_boot defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.426 [info] <0.293.0> Running boot step rabbit_core_metrics defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.427 [info] <0.293.0> Running boot step rabbit_alarm defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.436 [info] <0.302.0> Memory high watermark set to 799 MiB (838505267 bytes) of 1999 MiB (2096263168 bytes) total
+rabbit_1           | 2019-09-27 20:08:27.446 [info] <0.304.0> Enabling free disk space monitoring
+rabbit_1           | 2019-09-27 20:08:27.447 [info] <0.304.0> Disk free limit set to 209MB
+rabbit_1           | 2019-09-27 20:08:27.460 [info] <0.293.0> Running boot step code_server_cache defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.460 [info] <0.293.0> Running boot step file_handle_cache defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.460 [info] <0.307.0> Limiting to approx 1048476 file handles (943626 sockets)
+rabbit_1           | 2019-09-27 20:08:27.460 [info] <0.308.0> FHC read buffering:  OFF
+rabbit_1           | 2019-09-27 20:08:27.460 [info] <0.308.0> FHC write buffering: ON
+rabbit_1           | 2019-09-27 20:08:27.462 [info] <0.293.0> Running boot step worker_pool defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.462 [info] <0.297.0> Will use 2 processes for default worker pool
+rabbit_1           | 2019-09-27 20:08:27.462 [info] <0.297.0> Starting worker pool 'worker_pool' with 2 processes in it
+rabbit_1           | 2019-09-27 20:08:27.464 [info] <0.293.0> Running boot step database defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.475 [info] <0.293.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
+rabbit_1           | 2019-09-27 20:08:27.530 [info] <0.293.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
+rabbit_1           | 2019-09-27 20:08:27.530 [info] <0.293.0> Peer discovery backend rabbit_peer_discovery_classic_config does not support registration, skipping registration.
+rabbit_1           | 2019-09-27 20:08:27.530 [info] <0.293.0> Running boot step database_sync defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.530 [info] <0.293.0> Running boot step feature_flags defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.536 [info] <0.293.0> Running boot step codec_correctness_check defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.537 [info] <0.293.0> Running boot step external_infrastructure defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.539 [info] <0.293.0> Running boot step rabbit_registry defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.542 [info] <0.293.0> Running boot step rabbit_auth_mechanism_cr_demo defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.543 [info] <0.293.0> Running boot step rabbit_queue_location_random defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.544 [info] <0.293.0> Running boot step rabbit_event defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.545 [info] <0.293.0> Running boot step rabbit_auth_mechanism_amqplain defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.546 [info] <0.293.0> Running boot step rabbit_auth_mechanism_plain defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.547 [info] <0.293.0> Running boot step rabbit_exchange_type_direct defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.548 [info] <0.293.0> Running boot step rabbit_exchange_type_fanout defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.549 [info] <0.293.0> Running boot step rabbit_exchange_type_headers defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.550 [info] <0.293.0> Running boot step rabbit_exchange_type_topic defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.550 [info] <0.293.0> Running boot step rabbit_mirror_queue_mode_all defined by app rabbit
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+rabbit_1           | 2019-09-27 20:08:27.551 [info] <0.293.0> Running boot step rabbit_mirror_queue_mode_exactly defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.552 [info] <0.293.0> Running boot step rabbit_mirror_queue_mode_nodes defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.552 [info] <0.293.0> Running boot step rabbit_priority_queue defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.553 [info] <0.293.0> Priority queues enabled, real BQ is rabbit_variable_queue
+rabbit_1           | 2019-09-27 20:08:27.553 [info] <0.293.0> Running boot step rabbit_queue_location_client_local defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.554 [info] <0.293.0> Running boot step rabbit_queue_location_min_masters defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.555 [info] <0.293.0> Running boot step kernel_ready defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.555 [info] <0.293.0> Running boot step rabbit_sysmon_minder defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.556 [info] <0.293.0> Running boot step rabbit_epmd_monitor defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.561 [info] <0.293.0> Running boot step guid_generator defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.564 [info] <0.293.0> Running boot step rabbit_node_monitor defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.564 [info] <0.333.0> Starting rabbit_node_monitor
+rabbit_1           | 2019-09-27 20:08:27.567 [info] <0.293.0> Running boot step delegate_sup defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.568 [info] <0.293.0> Running boot step rabbit_memory_monitor defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.569 [info] <0.293.0> Running boot step core_initialized defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.569 [info] <0.293.0> Running boot step upgrade_queues defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.620 [info] <0.293.0> Running boot step rabbit_connection_tracking defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.621 [info] <0.293.0> Running boot step rabbit_connection_tracking_handler defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.622 [info] <0.293.0> Running boot step rabbit_exchange_parameters defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.624 [info] <0.293.0> Running boot step rabbit_mirror_queue_misc defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.625 [info] <0.293.0> Running boot step rabbit_policies defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.627 [info] <0.293.0> Running boot step rabbit_policy defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.627 [info] <0.293.0> Running boot step rabbit_queue_location_validator defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.628 [info] <0.293.0> Running boot step rabbit_vhost_limit defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.629 [info] <0.293.0> Running boot step rabbit_mgmt_reset_handler defined by app rabbitmq_management
+rabbit_1           | 2019-09-27 20:08:27.630 [info] <0.293.0> Running boot step rabbit_mgmt_db_handler defined by app rabbitmq_management_agent
+rabbit_1           | 2019-09-27 20:08:27.630 [info] <0.293.0> Management plugin: using rates mode 'basic'
+rabbit_1           | 2019-09-27 20:08:27.632 [info] <0.293.0> Running boot step recovery defined by app rabbit
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+rabbit_1           | 2019-09-27 20:08:27.636 [info] <0.366.0> Making sure data directory '/bitnami/rabbitmq/mnesia/rabbit@localhost/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
+rabbit_1           | 2019-09-27 20:08:27.646 [info] <0.366.0> Starting message stores for vhost '/'
+rabbit_1           | 2019-09-27 20:08:27.647 [info] <0.370.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_transient": using rabbit_msg_store_ets_index to provide index
+rabbit_1           | 2019-09-27 20:08:27.651 [info] <0.366.0> Started message store of type transient for vhost '/'
+rabbit_1           | 2019-09-27 20:08:27.652 [info] <0.373.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": using rabbit_msg_store_ets_index to provide index
+rabbit_1           | 2019-09-27 20:08:27.653 [warning] <0.373.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
+rabbit_1           | 2019-09-27 20:08:27.656 [info] <0.366.0> Started message store of type persistent for vhost '/'
+rabbit_1           | 2019-09-27 20:08:27.667 [info] <0.293.0> Running boot step load_definitions defined by app rabbitmq_management
+rabbit_1           | 2019-09-27 20:08:27.667 [info] <0.293.0> Running boot step empty_db_check defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.668 [info] <0.293.0> Running boot step rabbit_looking_glass defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.668 [info] <0.293.0> Running boot step rabbit_core_metrics_gc defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.668 [info] <0.293.0> Running boot step background_gc defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.669 [info] <0.293.0> Running boot step connection_tracking defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.670 [info] <0.293.0> Setting up a table for connection tracking on this node: tracked_connection_on_node_rabbit@localhost
+rabbit_1           | 2019-09-27 20:08:27.672 [info] <0.293.0> Setting up a table for per-vhost connection counting on this node: tracked_connection_per_vhost_on_node_rabbit@localhost
+rabbit_1           | 2019-09-27 20:08:27.672 [info] <0.293.0> Running boot step routing_ready defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.673 [info] <0.293.0> Running boot step pre_flight defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.673 [info] <0.293.0> Running boot step notify_cluster defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.673 [info] <0.293.0> Running boot step networking defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.678 [info] <0.410.0> started TCP listener on [::]:5672
+rabbit_1           | 2019-09-27 20:08:27.679 [info] <0.293.0> Running boot step direct_client defined by app rabbit
+rabbit_1           | 2019-09-27 20:08:27.746 [info] <0.460.0> Management plugin: HTTP (non-TLS) listener started on port 15672
+rabbit_1           | 2019-09-27 20:08:27.747 [info] <0.566.0> Statistics database started.
+rabbit_1           | 2019-09-27 20:08:27.747 [info] <0.565.0> Starting worker pool 'management_worker_pool' with 3 processes in it
+rabbit_1           | 2019-09-27 20:08:27.925 [info] <0.8.0> Server startup complete; 3 plugins started.
+rabbit_1           |  * rabbitmq_management
+rabbit_1           |  * rabbitmq_management_agent
+rabbit_1           |  * rabbitmq_web_dispatch
+rabbit_1           |  completed with 3 plugins.
+rabbit_1           | Stopping and halting node rabbit@localhost ...
+rabbit_1           | 2019-09-27 22:19:23.610 [info] <0.671.0> RabbitMQ is asked to stop...
+rabbit_1           | 2019-09-27 22:19:24.357 [info] <0.671.0> Stopping RabbitMQ applications and their dependencies in the following order:
+rabbit_1           |     rabbitmq_management
+rabbit_1           |     amqp_client
+rabbit_1           |     rabbitmq_web_dispatch
+rabbit_1           |     cowboy
+rabbit_1           |     cowlib
+rabbit_1           |     rabbitmq_management_agent
+rabbit_1           |     rabbit
+rabbit_1           |     mnesia
+rabbit_1           |     rabbit_common
+rabbit_1           |     sysmon_handler
+rabbit_1           |     os_mon
+rabbit_1           | 2019-09-27 22:19:24.357 [info] <0.671.0> Stopping application 'rabbitmq_management'
+rabbit_1           | 2019-09-27 22:19:24.438 [warning] <0.416.0> RabbitMQ HTTP listener registry could not find context rabbitmq_management_tls
+rabbit_1           | 2019-09-27 22:19:24.461 [info] <0.671.0> Stopping application 'amqp_client'
+rabbit_1           | 2019-09-27 22:19:24.460 [info] <0.43.0> Application rabbitmq_management exited with reason: stopped
+rabbit_1           | 2019-09-27 22:19:24.467 [info] <0.43.0> Application amqp_client exited with reason: stopped
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+rabbit_1           | 2019-09-27 22:19:24.467 [info] <0.671.0> Stopping application 'rabbitmq_web_dispatch'
+rabbit_1           | 2019-09-27 22:19:24.476 [info] <0.43.0> Application rabbitmq_web_dispatch exited with reason: stopped
+rabbit_1           | 2019-09-27 22:19:24.476 [info] <0.671.0> Stopping application 'cowboy'
+rabbit_1           | 2019-09-27 22:19:24.481 [info] <0.43.0> Application cowboy exited with reason: stopped
+rabbit_1           | 2019-09-27 22:19:24.481 [info] <0.671.0> Stopping application 'cowlib'
+rabbit_1           | 2019-09-27 22:19:24.481 [info] <0.43.0> Application cowlib exited with reason: stopped
+rabbit_1           | 2019-09-27 22:19:24.481 [info] <0.671.0> Stopping application 'rabbitmq_management_agent'
+rabbit_1           | 2019-09-27 22:19:24.495 [info] <0.43.0> Application rabbitmq_management_agent exited with reason: stopped
+rabbit_1           | 2019-09-27 22:19:24.495 [info] <0.671.0> Stopping application 'rabbit'
+rabbit_1           | 2019-09-27 22:19:24.508 [info] <0.293.0> Peer discovery backend rabbit_peer_discovery_classic_config does not support registration, skipping unregistration.
+rabbit_1           | 2019-09-27 22:19:24.513 [info] <0.410.0> stopped TCP listener on [::]:5672
+rabbit_1           | 2019-09-27 22:19:24.526 [info] <0.354.0> Closing all connections in vhost '/' on node 'rabbit@localhost' because the vhost is stopping
+rabbit_1           | 2019-09-27 22:19:24.530 [info] <0.373.0> Stopping message store for directory '/bitnami/rabbitmq/mnesia/rabbit@localhost/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent'
+rabbit_1           | 2019-09-27 22:19:24.569 [info] <0.373.0> Message store for directory '/bitnami/rabbitmq/mnesia/rabbit@localhost/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent' is stopped
+rabbit_1           | 2019-09-27 22:19:24.570 [info] <0.370.0> Stopping message store for directory '/bitnami/rabbitmq/mnesia/rabbit@localhost/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_transient'
+rabbit_1           | 2019-09-27 22:19:24.575 [info] <0.370.0> Message store for directory '/bitnami/rabbitmq/mnesia/rabbit@localhost/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_transient' is stopped
+rabbit_1           | 2019-09-27 22:19:24.627 [info] <0.43.0> Application rabbit exited with reason: stopped
+rabbit_1           | 2019-09-27 22:19:24.627 [info] <0.671.0> Stopping application 'mnesia'
+rabbit_1           | 2019-09-27 22:19:24.659 [info] <0.43.0> Application mnesia exited with reason: stopped
+rabbit_1           | 2019-09-27 22:19:24.659 [info] <0.671.0> Stopping application 'rabbit_common'
+rabbit_1           | 2019-09-27 22:19:24.660 [info] <0.671.0> Stopping application 'sysmon_handler'
+rabbit_1           | 2019-09-27 22:19:24.660 [info] <0.43.0> Application rabbit_common exited with reason: stopped
+rabbit_1           | 2019-09-27 22:19:24.664 [info] <0.671.0> Stopping application 'os_mon'
+rabbit_1           | 2019-09-27 22:19:24.664 [info] <0.43.0> Application sysmon_handler exited with reason: stopped
+rabbit_1           | 2019-09-27 22:19:24.671 [info] <0.43.0> Application os_mon exited with reason: stopped
+rabbit_1           | 2019-09-27 22:19:24.671 [info] <0.671.0> Successfully stopped RabbitMQ and its dependencies
+rabbit_1           | 2019-09-27 22:19:24.672 [info] <0.671.0> Halting Erlang VM with the following applications:
+rabbit_1           |     ranch
+rabbit_1           |     ssl
+rabbit_1           |     public_key
+rabbit_1           |     asn1
+rabbit_1           |     credentials_obfuscation
+rabbit_1           |     jsx
+rabbit_1           |     observer_cli
+rabbit_1           |     inets
+rabbit_1           |     xmerl
+rabbit_1           |     crypto
+rabbit_1           |     stdout_formatter
+rabbit_1           |     recon
+rabbit_1           |     tools
+rabbit_1           |     lager
+rabbit_1           |     goldrush
+rabbit_1           |     compiler
+rabbit_1           |     syntax_tools
+rabbit_1           |     sasl
+rabbit_1           |     stdlib
+rabbit_1           |     kernel
+rabbit_1           | Gracefully halting Erlang VM
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+rasa_rabbit_1 exited with code 0
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+db_1               | [0m
+db_1               | [0m[1mWelcome to the Bitnami postgresql container[0m
+db_1               | [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/bitnami-docker-postgresql[0m
+db_1               | [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/bitnami-docker-postgresql/issues[0m
+db_1               | [0mSend us your feedback at [1mcontainers@bitnami.com[0m
+db_1               | [0m
+db_1               | [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+db_1               | [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+db_1               | [0m[38;5;1mERROR[0m ==> The POSTGRESQL_PASSWORD environment variable is empty or not set. Set the environment variable ALLOW_EMPTY_PASSWORD=yes to allow the container to be started with blank passwords. This is recommended only for development.
+rasa_db_1 exited with code 1

@@ -1,0 +1,12 @@
+{
+    "type": "service_account",
+    "project_id": "rasa-platform",
+    "private_key_id": "sdferw234qadst423qafdgxhw",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvfwrt423qwadsfghtzw0BAQEFAASCBKgwggSkAgEAAoIBAQCgt338FkWbW13dghtzew4easdf5wAi15jrA9t4uOk8dghrtze4weasfgdhtAFZNfrLgvr2\nPBTu1lAJDLo136ZGTdMKi+/TuRqrIMg/sr8q0Ungish8v6t5Jb4gsjBi9StytCT4\nhWXDL3qeadfsgeDOudl6c3iMzylBws+VffrFfaZWjDpGtxmlYwIUa2e\noNSe7BYLnY9tDrX3zrP/wu/6FPbbGkBjguDG1l3Kx7l1wmiPtK5lIhjt+k7Oyx/u\nd6+gvfs+7RX9wUxnZT/tLggybYdsr8BA1Pqr0hDmhdDl7tjXVTmGLG+1/+lXVGFc\nqKEg+uLXAgMBAAECggEAESzwRK0Cp62LgBjInk+jvTmMI4lYP/XTnfk0TNwyiLxd\nT7mkw/TzkSVRifZ37lBQ6BS6BiqBJherh1N4xI+DF9HUN/wHR93QTyu7p8umlcxC\nlPV0KE4b5ZMfWvRG4y236cRGly9urcBNGoFzFHl8pd2iS5DMqZOYpSXY+qvkXTKE\nUOm5mVSs4S4Qa9cHL+jWXCvY0789fG1GrT+L3Fn+StKacgQuBnN1krYFYBSjCAh8\nsnSdjkvGguw/6OApPHd8HqkHtjU0PD67uU5QIm5N1bmz9KT4s9Pm+WbCinEstIiN\nIfln5ikmHcMAiIS0gzSnZavsY21PsDHBkD8SUO7CTQKBgQDgMPhx0TsB/oVH/SnU\nt3oTME+tfAKI69tozX02jHj6DY/vDpI1hXNmb4oMOos5+3ulborHqnso9za1RgV7\nm2N04QQVfzYEuZzJzXL11SHvBYVjHkXYy6HR5GhnPmwA+CzrDNy2/oYxlaqH7TBA\nR+f7IHToIPKGCVrhCJztlAgzIwKBgQC3hQNclIQ5Iw0gm9Rr8zAP/YoRJdiUSYtv\nNBmav+dTTSkPh51Bomj/J4Rrg8OLvHG5U79pmzbQdIFGYGKlR0l4/QepKpbaGm7x\nM/gRp/GXu9sN8LgI+h+FskCYi4cuqDjQ9L2S0gwMre4witmeVSIiBxLWxS7mvkZX\nWRW58ml2vQKBgBozPuW2SQobn6HhIUFdy+NwMu+YXYd44ORnl2mHkx/N8/NBJa8h\nkHH5OQ3izaCSFkooGAnrj4cjFP6sVzmx2DaxkVOd0UdOFdezreqy5MtVPthtkkYa\nzieEZPsj3WVjm4RAtY6hQjeLQSmve4MXpDHCAkeaih1F/Jvt8MEHGso3AoGBAJez\nTioTYpFQliNkbN2nMw2kyaKPJE6/1JDiAmBXTcMgP1blBWsh86UnZ2DwlI5IAcHu\npoWHlnIOPGaOejyhhuyKTPDbkcNMonSkPuVpbF2/Hb6SQ664A6KizJ7Mh7xbtkuU\nY7igBPHePMzHmkg1m3eBXWNHsBNxKfg+XaVN6zwJAoGBAN6VhGMmyDcn0GqkkP6d\nrSsQ0Ig7L4PnU633oYWoGWa8q/XYiFbcACMFynMbrmHG+/0c3Iwt32bi3th60Cwb\nT66yqmv4MaT72+EfQHxiLxnUxhqSpBXM0eoXbyvDg97Zp/slsYvGGLjONmmretlE\nsjAsuAH4Iz1XdfdenzGnyBZH\n-----END PRIVATE KEY-----\n",
+    "client_email": "company@rasa-platform.iam.gserviceaccount.com",
+    "client_id": "114123456713428149",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://accounts.google.com/o/oauth2/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/company%40rasa-platform.iam.gserviceaccount.com"
+  }
